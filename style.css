@@ -4,10 +4,10 @@
 }
 body {
     background-color: hsl(212, 45%, 89%);
+    padding: 100px;
 }
 .code-container {
     border: 1px;
-    width: 200px;
     margin: 80px auto;
     border-radius: 15px;
     padding: 10px;
