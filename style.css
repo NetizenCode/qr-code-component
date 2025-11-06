@@ -4,11 +4,11 @@
 }
 body {
     background-color: hsl(212, 45%, 89%);
-    padding: 100px;
+    padding: 60px;
 }
 .code-container {
     border: 1px;
-    margin: 80px auto;
+    margin: 30px auto;
     border-radius: 15px;
     padding: 10px;
     background-color: hsl(0, 0%, 100%);
@@ -18,13 +18,17 @@ body {
         border-radius: 10px;
     }
 }
+.paragraph {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 14px;
+}
 h2 {
     font-family: outfit;
-    font-size: medium;
+    font-size: 20px;
     text-align: center;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    margin-top: 15px;
 }
 p {
     font-family: outfit;
@@ -34,4 +38,10 @@ p {
     color: hsl(216, 15%, 48%);
     font-weight: 400;
     margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    body {
+        padding-left: 400px;
+        padding-right: 400px;
+    }
 }
