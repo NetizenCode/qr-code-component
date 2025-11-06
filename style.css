@@ -4,10 +4,10 @@
 }
 body {
     background-color: hsl(212, 45%, 89%);
-    padding: 60px;
 }
 .code-container {
     border: 1px;
+    width: 300px;
     margin: 30px auto;
     border-radius: 15px;
     padding: 10px;
@@ -39,8 +39,9 @@ p {
     font-weight: 400;
     margin-bottom: 20px;
 }
+
 @media (min-width: 768px) {
     .code-container {
-        width: 300px;
+        width: 400px;
     }
 }
